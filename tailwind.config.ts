@@ -5,7 +5,12 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			colors: {
+				prime: "#009C64",
+				sunsetOrange: "#FF7D34",
+			}
+		}
 	},
 
 	plugins: [forms]
